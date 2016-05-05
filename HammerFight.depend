@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1461238983 source:c:\users\ivanc\desktop\hammerfight\main.cpp
+	<iostream>
+	<ctime>
+	<cmath>
+	<thread>
+	<chrono>
+	<SFML/Graphics.hpp>
+	<SFML/OpenGL.hpp>
+	"Game.h"
+	"PlayerShip.h"
+	"EnemyShip.h"
+
+1461142009 source:c:\users\ivanc\desktop\hammerfight\game.cpp
+	"Game.h"
+	<iostream>
+	<windows.h>
+	<SFML/OpenGL.hpp>
+
+1461140908 c:\users\ivanc\desktop\hammerfight\game.h
+	<vector>
+	<SFML/Graphics.hpp>
+	"Ship.h"
+
+1461226933 c:\users\ivanc\desktop\hammerfight\ship.h
+	<SFML/Graphics.hpp>
+	"Game.h"
+
+1460716083 source:c:\users\ivanc\desktop\hammerfight\entity.cpp
+	"Entity.h"
+
+1460716083 c:\users\ivanc\desktop\hammerfight\entity.h
+
+1461226933 source:c:\users\ivanc\desktop\hammerfight\ship.cpp
+	"Ship.h"
+
+1461151628 c:\users\ivanc\desktop\hammerfight\ships\playership.h
+	"../Ship.h"
+
+1461227275 source:c:\users\ivanc\desktop\hammerfight\ships\playership.cpp
+	"PlayerShip.h"
+	<cmath>
+	<SFML/OpenGL.hpp>
+	<iostream>
+	"utils.h"
+
+1461138128 c:\users\ivanc\desktop\hammerfight\ships\enemyship.h
+	"../Ship.h"
+
+1461227916 source:c:\users\ivanc\desktop\hammerfight\ships\enemyship.cpp
+	"EnemyShip.h"
+	<iostream>
+	<SFML/OpenGL.hpp>
+
+1461137392 source:c:\users\ivanc\desktop\hammerfight\utils.cpp
+	"utils.h"
+
+1461082385 c:\users\ivanc\desktop\hammerfight\utils.h
+	<SFML/Graphics.hpp>
+
